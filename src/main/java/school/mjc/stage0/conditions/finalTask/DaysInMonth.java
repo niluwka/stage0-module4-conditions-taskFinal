@@ -1,8 +1,8 @@
 package school.mjc.stage0.conditions.finalTask;
 
-public class DaysInMonth {
+public class    DaysInMonth {
     public void printDays(int year, int month) {
-        if (year == 365 && year > 0) {
+        if (year == 365 && year > 0 ) {
             if (month >0 || month < 12) {
 
                 switch (month){
@@ -60,7 +60,7 @@ public class DaysInMonth {
                 }
 
             }
-        } else if (year == 366  && year > 0) {
+        } else if (year == 366  && year > 0 && year % 400 == 0) {
             if (month >0 || month < 12) {
 
                 switch (month){

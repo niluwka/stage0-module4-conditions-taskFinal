@@ -24,6 +24,9 @@ public class SeasonDeterminer {
             case (11):
                 season = "autumn";
                 break;
+            case (0):
+                season = "Wrong month number!";
+                break;
             default:
                 season = "Wrong month number!";
                 break;
